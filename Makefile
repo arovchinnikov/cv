@@ -1,5 +1,7 @@
-deploy: add commit push
+deploy: build add commit push
 
+build:
+	npm run build
 add:
 	git add dist -f
 commit:
